@@ -16,7 +16,7 @@ struct ContentView: View {
         ["SAT", "cloud.sun.fill", "76°"]
     ]
     
-    @State private var isNightTime = false
+    @State var isNightTime = false
     
     var body: some View {
         ZStack {
